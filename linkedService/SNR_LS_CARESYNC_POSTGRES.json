@@ -1,0 +1,10 @@
+{
+	"name": "SNR_LS_CARESYNC_POSTGRES",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://SNR-KV-CARESYNC1.vault.azure.net/"
+		}
+	}
+}
