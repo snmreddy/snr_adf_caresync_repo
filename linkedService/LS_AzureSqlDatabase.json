@@ -1,0 +1,24 @@
+{
+	"name": "LS_AzureSqlDatabase",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "snr-caresync.database.windows.net",
+			"database": "free-sql-db-caresync",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "snmreddy",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "SNR_LS_CARESYNC_POSTGRES",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "metadata-sql-db-pswd",
+				"secretVersion": "5417b30699ee4f92868ec733c58169c3"
+			}
+		}
+	}
+}
