@@ -1,0 +1,10 @@
+{
+	"name": "SNR_LS_ADLS_CARESYNC",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://snr2adsl2caresync.dfs.core.windows.net/"
+		}
+	}
+}
